@@ -6,7 +6,15 @@
 
     <groupId>br.kafka</groupId>
     <artifactId>eccomerce</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>service-email</module>
+        <module>service-fraudedetector</module>
+        <module>service-logs</module>
+        <module>service-new-order</module>
+        <module>commom-kafka</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.apache.kafka</groupId>
